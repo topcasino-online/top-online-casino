@@ -139,7 +139,6 @@ summary::-webkit-details-marker{display:none}
   .cta-btn,.ghost-btn{width:100%}
 }
 
-
 .extra-text-section{padding:22px 0}
 .text-block-grid{display:grid;grid-template-columns:1fr;gap:22px}
 .text-block-card{padding:28px;min-height:auto}
@@ -155,7 +154,6 @@ h1,h2,h3,h4,h5,h6{letter-spacing:.004em;overflow-wrap:anywhere}
 .long-text-block p{text-wrap:pretty}
 
 .unique-long-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}.unique-text-block p{line-height:1.78;letter-spacing:.01em;font-kerning:normal;text-rendering:optimizeLegibility}.unique-text-block h3{letter-spacing:.005em;line-height:1.25}
-
 
 /* Internal review pages: long text blocks stay horizontal */
 .review-page .internal-long-list{
@@ -186,7 +184,6 @@ h1,h2,h3,h4,h5,h6{letter-spacing:.004em;overflow-wrap:anywhere}
   .review-page .internal-text-block{padding:26px 22px}
 }
 
-
 /* Main-page long text blocks: one horizontal card per row */
 .unique-long-grid{
   display:grid !important;
@@ -201,7 +198,6 @@ h1,h2,h3,h4,h5,h6{letter-spacing:.004em;overflow-wrap:anywhere}
 .unique-text-block p{
   max-width:none;
 }
-
 
 /* Review page readability fixes */
 .review-content-grid{
@@ -240,7 +236,6 @@ h1,h2,h3,h4,h5,h6{letter-spacing:.004em;overflow-wrap:anywhere}
   font-weight:700;
   letter-spacing:.01em;
 }
-
 
 /* Internal review page fixes */
 .review-content-grid{display:block !important;}

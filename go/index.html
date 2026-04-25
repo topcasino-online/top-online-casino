@@ -26,11 +26,11 @@
   <script>
     // EDIT ONLY THIS LINE:
     // Put your affiliate/referral URL between the quotes below.
-    const AFFILIATE_URL = "https://example.com/your-affiliate-link";
+    const AFFILIATE_URL = "";
 
     const manualLink = document.getElementById("manual-link");
-    manualLink.href = AFFILIATE_URL;
-    window.location.replace(AFFILIATE_URL);
+    if (AFFILIATE_URL) manualLink.href = AFFILIATE_URL;
+    if (AFFILIATE_URL) window.location.replace(AFFILIATE_URL);
   </script>
 </body>
 </html>
