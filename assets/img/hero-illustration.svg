@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-label="Casino chips illustration">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#151f36"/>
+    <stop offset="100%" stop-color="#0d1220"/>
+  </linearGradient>
+  <linearGradient id="chip" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#7a5cff"/>
+    <stop offset="100%" stop-color="#12d6a0"/>
+  </linearGradient>
+</defs>
+<rect width="900" height="520" rx="32" fill="url(#bg)"/>
+<circle cx="675" cy="165" r="105" fill="none" stroke="#2b3550" stroke-width="20"/>
+<circle cx="675" cy="165" r="82" fill="none" stroke="url(#chip)" stroke-width="16"/>
+<circle cx="675" cy="165" r="48" fill="#121b2f"/>
+<circle cx="255" cy="335" r="88" fill="none" stroke="#2b3550" stroke-width="18"/>
+<circle cx="255" cy="335" r="69" fill="none" stroke="#ffc93c" stroke-width="14"/>
+<circle cx="255" cy="335" r="39" fill="#121b2f"/>
+<rect x="390" y="230" width="110" height="150" rx="18" fill="#f7f9ff"/>
+<rect x="405" y="245" width="80" height="120" rx="10" fill="#11182b"/>
+<text x="445" y="322" font-family="Inter,Arial,sans-serif" font-size="48" font-weight="800" text-anchor="middle" fill="#f7f9ff">A</text>
+<path d="M150 130 C240 40 350 30 470 88" fill="none" stroke="#32405f" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 14"/>
+<path d="M495 88 C595 130 605 278 515 355" fill="none" stroke="#32405f" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 14"/>
+<text x="70" y="90" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#a9b7db">Static casino review hub</text>
+<text x="70" y="125" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="800" fill="#ffffff">Top 5 • Reviews • Multi-language</text>
+<text x="70" y="170" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="500" fill="#a9b7db">Built with plain HTML, CSS, SVG and a lightweight redirect page.</text>
+</svg>

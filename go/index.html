@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Redirecting...</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <style>
+    .go-box{max-width:760px;margin:12vh auto;padding:32px;border-radius:24px;background:#fff;border:1px solid rgba(13,20,37,.12);box-shadow:0 18px 60px rgba(13,20,37,.08)}
+    .go-box p{line-height:1.7;color:#4b5563}
+    .go-link{display:inline-block;margin-top:14px}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="go-box">
+      <span class="kicker">Redirect</span>
+      <h1>Redirecting...</h1>
+      <p>If the redirect does not start automatically, use the button below.</p>
+      <a id="manual-link" class="cta-btn go-link" href="#" rel="nofollow sponsored">Continue</a>
+    </section>
+  </main>
+
+  <script>
+    // EDIT ONLY THIS LINE:
+    // Put your affiliate/referral URL between the quotes below.
+    const AFFILIATE_URL = "https://example.com/your-affiliate-link";
+
+    const manualLink = document.getElementById("manual-link");
+    manualLink.href = AFFILIATE_URL;
+    window.location.replace(AFFILIATE_URL);
+  </script>
+</body>
+</html>
